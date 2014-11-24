@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="BurbersGround/imports/windows32"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="src/core.jar"/>
+	<classpathentry kind="lib" path="src/Lib/serial.jar"/>
+	<classpathentry kind="lib" path="src/Lib/Arduino.jar"/>
+	<classpathentry kind="lib" path="imports/jssc.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
