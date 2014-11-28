@@ -25,6 +25,7 @@ public class MainGround extends PApplet {
   PanelMotors panelmotors = new PanelMotors(10, 90, 150, 150, this);
   PanelStabilizationX panelstabilizationX = new PanelStabilizationX(this);
   GraphsPanel graphsPanel = new GraphsPanel(0, initialWindowHeight-300, this);
+  Switch switch1 = new Switch(this, true, 320, 320, "Testswitch");
   String buf="";
   public static Mode selectedMode;
   public ArrayList<String> commands;
@@ -74,6 +75,7 @@ public class MainGround extends PApplet {
 	  graphsPanel.drawPanel();
 	// Draw motor panel
 	  panelmotors.drawPanel();
+	  switch1.draw();
 	  
 	// Draw stabilizationpanel X
 	  panelstabilizationX.drawPanelStabilizationX();
